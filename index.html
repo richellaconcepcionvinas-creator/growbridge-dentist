@@ -22,7 +22,7 @@
       <a href="#about">About</a>
       <a href="#services">Services</a>
       <a href="tel:+639760953481" class="nav-phone">📞 0976 095 3481</a>
-      <a href="https://calendar.app.google/BNPNJzBF2wcjYw1QA" class="nav-cta" target="_blank" rel="noopener noreferrer">Book Now</a>
+      <a href="#book" class="nav-cta">Book Now</a>
     </nav>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
       <span></span><span></span><span></span>
@@ -46,8 +46,8 @@
         <li>Cosmetic Dentistry</li>
       </ul>
       <div class="hero-buttons">
-        <a href="https://calendar.app.google/BNPNJzBF2wcjYw1QA" class="btn btn-primary" target="_blank" rel="noopener noreferrer">📅 Book an Appointment</a>
-        <a href="https://calendar.app.google/BNPNJzBF2wcjYw1QA" class="btn btn-outline" target="_blank" rel="noopener noreferrer">🎉 Claim Your 5% Discount</a>
+        <a href="#book" class="btn btn-primary">📅 Book an Appointment</a>
+        <a href="#book" class="btn btn-outline">🎉 Claim Your 5% Discount</a>
       </div>
     </div>
     <div class="hero-media placeholder-box" data-placeholder="Hero Photo (1000×1000)"></div>
@@ -214,10 +214,19 @@
 </section>
 
 <!-- BOOK CTA -->
-<section class="book-section" id="book">
+<section class="book-section">
   <div class="container book-inner">
     <h2>Ready for a healthier, brighter smile?</h2>
-    <a href="https://calendar.app.google/BNPNJzBF2wcjYw1QA" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Book Now</a>
+    <a href="#book" class="btn btn-primary">Book Now</a>
+  </div>
+</section>
+
+<!-- BOOKING EMBED -->
+<section class="booking-section" id="book">
+  <div class="container">
+    <h2 class="section-title">Schedule Your Appointment</h2>
+    <p class="section-hint">Pick a date and time that works for you.</p>
+    <div class="calendly-inline-widget" data-url="https://calendly.com/whisperofb/30min" style="min-width:320px;height:700px;"></div>
   </div>
 </section>
 
@@ -277,6 +286,7 @@
   </div>
 </footer>
 
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <script src="script.js"></script>
 </body>
 </html>

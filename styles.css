@@ -383,6 +383,17 @@ a { text-decoration: none; color: inherit; }
 .book-section .btn-primary { background: var(--white); color: var(--primary); box-shadow: none; }
 .book-section .btn-primary:hover { background: var(--bg-light); }
 
+/* BOOKING EMBED */
+.booking-section { padding: 64px 0; background: var(--bg-light); }
+.calendly-inline-widget {
+  max-width: 900px;
+  margin: 32px auto 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background: var(--white);
+}
+
 /* FOOTER */
 .site-footer { background: #14181c; color: #cbd5e0; padding: 56px 0 24px; }
 .footer-grid {

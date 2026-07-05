@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Growbridge Dentist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- HEADER / NAV -->
+<header class="site-header" id="top">
+  <div class="container nav-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">+</span> Growbridge&nbsp;Dentist
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#top">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="tel:+639760953481" class="nav-phone">📞 0976 095 3481</a>
+      <a href="#book" class="nav-cta">Book Now</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="about">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <h1>Smile with Confidence</h1>
+      <p class="hero-sub">Professional Dental Care for a Healthier, Brighter Smile</p>
+      <p class="hero-lead">Get the healthy, beautiful smile you deserve.</p>
+      <ul class="hero-list">
+        <li>Comprehensive Dental Checkups</li>
+        <li>Teeth Cleaning &amp; Whitening</li>
+        <li>Tooth Extraction</li>
+        <li>Dental Fillings</li>
+        <li>Braces &amp; Orthodontics</li>
+        <li>Cosmetic Dentistry</li>
+      </ul>
+      <div class="hero-buttons">
+        <a href="#book" class="btn btn-primary">📅 Book an Appointment</a>
+        <a href="#book" class="btn btn-outline">🎉 Claim Your 5% Discount</a>
+      </div>
+    </div>
+    <div class="hero-media placeholder-box" data-placeholder="Hero Photo (1000×1000)"></div>
+  </div>
+</section>
+
+<!-- BEFORE / AFTER -->
+<section class="comparison-section">
+  <div class="container">
+    <h2 class="section-title">The Brighter the Smile, The Bigger the Confidence.</h2>
+    <div class="before-after" id="comparison">
+      <div class="ba-frame">
+        <div class="ba-img ba-before placeholder-box" data-placeholder="Before Photo"></div>
+        <div class="ba-img ba-after placeholder-box" data-placeholder="After Photo" id="baAfter"></div>
+        <div class="ba-divider" id="baDivider">
+          <span class="ba-handle">&#8596;</span>
+        </div>
+      </div>
+      <p class="ba-hint">Drag the slider to compare</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div class="container">
+    <h2 class="section-title">Our Dental Services</h2>
+    <div class="carousel">
+      <button class="arrow arrow-prev" id="prevService" aria-label="Previous">&#10094;</button>
+      <div class="cards-track" id="serviceCards">
+        <div class="card service-card">
+          <div class="card-box">
+            <div class="icon-box placeholder-box" data-placeholder="Icon"></div>
+            <h3>Braces</h3>
+          </div>
+        </div>
+        <div class="card service-card">
+          <div class="card-box">
+            <div class="icon-box placeholder-box" data-placeholder="Icon"></div>
+            <h3>Teeth Whitening</h3>
+          </div>
+        </div>
+        <div class="card service-card">
+          <div class="card-box">
+            <div class="icon-box placeholder-box" data-placeholder="Icon"></div>
+            <h3>Veneers</h3>
+          </div>
+        </div>
+        <div class="card service-card">
+          <div class="card-box">
+            <div class="icon-box placeholder-box" data-placeholder="Icon"></div>
+            <h3>Dental Implants</h3>
+          </div>
+        </div>
+        <div class="card service-card">
+          <div class="card-box">
+            <div class="icon-box placeholder-box" data-placeholder="Icon"></div>
+            <h3>Root Canal</h3>
+          </div>
+        </div>
+        <div class="card service-card">
+          <div class="card-box">
+            <div class="icon-box placeholder-box" data-placeholder="Icon"></div>
+            <h3>Professional Cleaning</h3>
+          </div>
+        </div>
+      </div>
+      <button class="arrow arrow-next" id="nextService" aria-label="Next">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+<!-- DOCTORS -->
+<section class="doctors-section">
+  <div class="container">
+    <h2 class="section-title">Meet the Experts Behind Your Smile 👇</h2>
+    <p class="section-hint">Click the card to learn more about our doctors.</p>
+    <div class="doctor-cards">
+
+      <div class="card doctor-card" tabindex="0">
+        <div class="card-inner">
+          <div class="front">
+            <div class="doctor-photo placeholder-box" data-placeholder="Doctor Photo"></div>
+            <div class="front-content">
+              <h3>Dr. Sarah Johnson</h3>
+              <p>Orthodontist</p>
+            </div>
+          </div>
+          <div class="back">
+            <div>
+              <h3>Dr. Sarah Johnson</h3>
+              <p>✔ 12+ Years Experience<br><br>
+              Specializes in braces, Invisalign, and smile transformations. Dedicated to creating healthy, confident smiles for patients of all ages.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card doctor-card" tabindex="0">
+        <div class="card-inner">
+          <div class="front">
+            <div class="doctor-photo placeholder-box" data-placeholder="Doctor Photo"></div>
+            <div class="front-content">
+              <h3>Dr. Michael Lee</h3>
+              <p>General Dentist</p>
+            </div>
+          </div>
+          <div class="back">
+            <div>
+              <h3>Dr. Michael Lee</h3>
+              <p>✔ Family Dentistry<br><br>
+              Expert in preventive care, crowns, fillings, and cosmetic dentistry. Providing gentle dental care with modern technology.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card doctor-card" tabindex="0">
+        <div class="card-inner">
+          <div class="front">
+            <div class="doctor-photo placeholder-box" data-placeholder="Doctor Photo"></div>
+            <div class="front-content">
+              <h3>Dr. Emily Cruz</h3>
+              <p>Cosmetic Dentist</p>
+            </div>
+          </div>
+          <div class="back">
+            <div>
+              <h3>Dr. Emily Cruz</h3>
+              <p>✔ Smile Makeovers<br><br>
+              Specializes in veneers, whitening, and digital smile design. Helping patients achieve natural-looking confident smiles.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+  <div class="container">
+    <p class="eyebrow">TESTIMONIALS</p>
+    <h2 class="section-title">What others are saying</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial-card">
+        <h4>“Loved everything so far”</h4>
+        <p>“Testimonial lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolore, alias, numquam enim dolor elit.”</p>
+        <span>- Your Name</span>
+      </div>
+      <div class="testimonial-card">
+        <h4>“My life changed forever”</h4>
+        <p>“Testimonial lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolore, alias, numquam enim dolor elit.”</p>
+        <span>- Your Name</span>
+      </div>
+      <div class="testimonial-card">
+        <h4>“Highly recommend this”</h4>
+        <p>“Testimonial lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolore, alias, numquam enim dolor elit.”</p>
+        <span>- Your Name</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOK CTA -->
+<section class="book-section" id="book">
+  <div class="container book-inner">
+    <h2>Ready for a healthier, brighter smile?</h2>
+    <a href="#top" class="btn btn-primary">Book Now</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h5>COMPANY</h5>
+      <a href="#about">About Us</a>
+      <a href="#services">Our Team</a>
+      <a href="#top">Our Location</a>
+      <a href="#top">Our Partners</a>
+      <a href="#top">Careers</a>
+      <a href="#top">Testimonials</a>
+      <a href="#top">Press Release</a>
+    </div>
+    <div class="footer-col">
+      <h5>CUSTOMER CARE</h5>
+      <a href="#top">Help Center</a>
+      <a href="#top">FAQs</a>
+      <a href="#top">Shipping Information</a>
+      <a href="#top">Return Policy</a>
+      <a href="#top">Product Care</a>
+      <a href="#top">Contact Us</a>
+      <a href="#top">Support</a>
+    </div>
+    <div class="footer-col">
+      <h5>NEWS</h5>
+      <a href="#top">Latest News</a>
+      <a href="#top">Company Updates</a>
+      <a href="#top">Industry News</a>
+      <a href="#top">Events</a>
+      <a href="#top">Newsletters</a>
+    </div>
+    <div class="footer-col">
+      <h5>LEGAL</h5>
+      <a href="#top">Terms of Use</a>
+      <a href="#top">Privacy Policy</a>
+      <a href="#top">Warranty</a>
+      <a href="#top">Return Policy</a>
+      <a href="#top">Disclaimer</a>
+      <a href="#top">Code of Conduct</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <div class="footer-contact">
+      <a href="tel:+639760953481">📞 0976 095 3481</a>
+      <a href="mailto:whisperofb@gmail.com">✉️ whisperofb@gmail.com</a>
+    </div>
+    <div class="social-icons">
+      <a href="#" aria-label="Facebook">FB</a>
+      <a href="#" aria-label="Instagram">IG</a>
+      <a href="#" aria-label="LinkedIn">IN</a>
+      <a href="#" aria-label="YouTube">YT</a>
+    </div>
+    <p>© Copyright <span id="year"></span>. Growbridge Dentist. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
